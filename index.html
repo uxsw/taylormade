@@ -49,6 +49,49 @@
           class="is-logo"
         />
       </a>
+      <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__list-item">
+              <a href="training-courses.html" class="is-link">Training Courses</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="about.html" class="is-link">About</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="pricing.html" class="is-link">Pricing</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="contact.html" class="is-link">Contact</a>
+            </li>
+            <li class="main-nav__burger">
+              <a class="menu-icon__open is-burger" onclick="myFunction()"> <span class="material-icons"> dehaze </span> </a>
+            </li>
+          </ul>
+      </nav>
+
+      <div class="offcanvas__menu js-offcanvas-links" id="js-offcanvas-links" style="display: none;">
+        <div class="offcanvas__body">
+          <a href="javascript:void(0);" class="menu-icon__close" onclick="myFunction()">
+            <span class="material-icons"> close </span>
+          </a>
+          <img src="img/core/taylor-made-on-white_300.svg" alt="Taylor Made Training" width="120" />
+          <ul class="offcanvas__list">
+            <li class="offcanvas__list-item">
+              <a href="training.html" class="is-link">Training</a>
+            </li>
+            <li class="offcanvas__list-item">
+              <a href="about.html" class="is-link">About</a>
+            </li>
+            <li class="offcanvas__list-item">
+              <a href="pricing.html" class="is-link">Pricing</a>
+            </li>
+            <li class="offcanvas__list-item">
+              <a href="contact.html" class="is-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </header>
 
     <!--offscreen nav>
@@ -240,6 +283,59 @@
             <span class="material-icons">arrow_forward</span>
           </a>
         </div>
+        <div class="services-grid-item is-pricing">
+          <h2 class="pica">
+            <a href="pricing.html" class="is-section-link">Pricing.</a>
+          </h2>
+          <img
+            src="img/core/pricing.png"
+            alt="Training pricing"
+            class="is-section-thumb"
+          />
+          <div class="is-section-summary">
+            <p>
+              All courses are bespoke and flexible. These are
+              <b>example costs only</b>.<br />Call me to discuss a custom plan
+              for your website.<br /><b class="promo--color"
+                >Launch offer: 20% off all training for a limited period</b
+              >
+            </p>
+  </div>
+            <a
+              href="pricing.html"
+              class="btn-text has-right-icon is-section-cta"
+            >
+              Learn more
+              <span class="material-icons">arrow_forward</span>
+            </a>
+          </div>
+          <div class="services-grid-item is-contact">
+            <h2 class="pica">
+              <a href="contact.html" class="is-section-link">Contact.</a>
+            </h2>
+            <img
+              src="img/core/contact.png"
+              class="is-section-thumb"
+            />
+            <div class="is-section-summary">
+              <p>
+                Taylor Made Training is run by Natalie Taylor.</p>
+                <p>I have been working in digital marketing for twenty yeasr. I
+                have run AdWord campaigns and monitored website Analytics for
+                both large and small organisations. I work with businesses to
+                help their online marketing, from writing the strategy to
+                managing campaigns and training staff to run accounts inhouse.
+              </p>
+              <p>Contact me today to discuss how I can help with your training.</p>
+    </div>
+              <a
+                href="pricing.html"
+                class="btn-text has-right-icon is-section-cta"
+              >
+                Learn more
+                <span class="material-icons">arrow_forward</span>
+              </a>
+            </div>
       </div>
     </div>
     <footer class="footer">
@@ -305,5 +401,15 @@
         </ul>
       </div>
     </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("js-offcanvas-links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
