@@ -1,180 +1,183 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
 
+    <link rel="stylesheet" href="sass/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width">
-        <script type="text/javascript" src="//use.typekit.net/fzu4udk.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="http://taylormade.training/js/menu_sideslide.css">        <title>Contact Taylor Made Training</title>
-       
+    <style type="text/css">
+      .paragon,
+      .pica,
+      .is-slab {
+        font-family: "Roboto Slab", sans-serif;
+        font-weight: 700;
+      }
 
-    </head>
-    <body>
-        <div class="branding">
-            <header class="wrapper">
-              <a class="logo" href="index.html" title="Taylor Made Training, Home"
-                ><img src="img/core/taylor-made_w_w.png" alt="Taylor Made Training"
-              /></a>
-      
-              <!--offscreen nav-->
-              <div class="menu-wrap">
-                <nav class="menu">
-                  <div class="nav-list">
-                    <a href="index.html" title="Home">Home</a>
-                    <a href="training.html" title="Website training services"
-                      >Training</a
-                    >
-                    <a href="blog/index.html" title="Taylor Made Resources"
-                      >Resources</a
-                    >
-                    <a href="pricing.html" title="Training Course Prices">Prices</a>
-                    <a href="about.html" title="About Taylor Made">About</a>
-                    <a href="contact.html" title="Contact Taylor Made">Contact</a>
-                  </div>
-                </nav>
-                <button class="close-button" id="close-button">Close Menu</button>
-              </div>
-      
-              <button class="menu-link open-menu" id="open-button">Open Menu</button>
-      
-              <nav class="nav--main" role="navigation">
-                <ul class="nav nav--banner">
-                  <li>
-                    <a href="training.html" title="Website training services"
-                      >Training</a
-                    >
-                  </li>
-                  <li>
-                    <a href="blog/index.html" title="Taylor Made Resources"
-                      >Resources</a
-                    >
-                  </li>
-                  <li>
-                    <a href="pricing.html" title="Training Course Prices">Prices</a>
-                  </li>
-                  <li>
-                    <a href="about.html" title="About Taylor Made">About</a>
-                  </li>
-                  <li>
-                    <a href="contact.html" title="Contact Taylor Made">Contact</a>
-                  </li>
-                </ul>
-              </nav>
-            </header>
-          </div>
-          <!--/branding-->
-                <div class="content-wrap">
-				<div class="content">
-     
-        
-        <div class="wrapper wrapper-zero">
-        <div class="grid pair-set">
-	       			<div class="grid__item contact--form"> 
-	       			<div class="island">
-	       			<h1>Contact Taylor Made</h1>
-			 <form id="form1" name="form1" class="pf-stacked pf" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-      action="https://taylormadetraining.wufoo.com/forms/z1pn7ihw1wh05pl/#public">
-  
+      .minion,
+      .brevier,
+      .primer,
+      .long-primer p,
+      li {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+    <title>Contact Taylor Made Training</title>
+    <meta
+      name="description"
+      content="Contact Taylor Made Training - helping businesses for over a decade with their website marketing."
+    />
+  </head>
+  <body class="theme-layer">
+    <header class="branding">
+      <a class="branding__logo" href="index.html">
+        <img
+          src="img/core/taylor-made-on-white_300.svg"
+          alt="Taylor Made Training"
+          class="is-logo"
+        />
+      </a>
+      <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__list-item">
+              <a href="training-courses.html" class="is-link">Training Courses</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="about.html" class="is-link ">About</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="pricing.html" class="is-link">Pricing</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="contact.html" class="is-link">Contact</a>
+            </li>
+            <li class="main-nav__burger">
+              <a class="menu-icon__open is-burger" onclick="myFunction()"> <span class="material-icons"> dehaze </span> </a>
+            </li>
+          </ul>
+      </nav>
 
-<label class="desc" id="title3" for="Field3">Name<span id="req_3" class="req">*</span></label>
-<input id="Field3" name="Field3" type="text" class="field text pure-input-1" value="" maxlength="255" tabindex="1" onkeyup="" required />
-<label class="desc" id="title4" for="Field4">Email<span id="req_4" class="req">*</span></label>
-<input id="Field4" name="Field4" type="email" spellcheck="false" class="field text pure-input-1" value="" maxlength="255" tabindex="2" required />
-<label class="desc" id="title6" for="Field6">Phone</label>
-<input id="Field6" name="Field6" type="text" class="field text pure-input-1" value="" maxlength="255" tabindex="3" onkeyup="" />
-<label class="desc" id="title7" for="Field7">Message<span id="req_7" class="req">*</span></label>
-<textarea id="Field7"
-name="Field7"
-class="field textarea pure-input-1"
-spellcheck="true"
-tabindex="4"
-onkeyup=""
-required  ></textarea>
-<p></p>
-<p><input id="saveForm" name="saveForm" class="btTxt submit btn btn--primary" type="submit" value="Submit" /></p>
+      <div class="offcanvas__menu js-offcanvas-links" id="js-offcanvas-links" style="display: none;">
+        <div class="offcanvas__body">
+          <a href="javascript:void(0);" class="menu-icon__close" onclick="myFunction()">
+            <span class="material-icons"> close </span>
+          </a>
+          <img src="img/core/taylor-made-on-white_300.svg" alt="Taylor Made Training" width="120" />
+          <ul class="offcanvas__list">
+            <li class="offcanvas__list-item">
+              <a href="training.html" class="is-link">Training</a>
+            </li>
+            <li class="offcanvas__list-item">
+              <a href="about.html" class="is-link is-current">About</a>
+            </li>
+            <li class="offcanvas__list-item">
+              <a href="pricing.html" class="is-link">Pricing</a>
+            </li>
+            <li class="offcanvas__list-item">
+              <a href="contact.html" class="is-link is-current">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-<div class="visuallyhidden">
-<label for="comment">Do Not Fill This Out</label>
-<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-<p>ttt</p>
-<p><input type="hidden" id="idstamp" name="idstamp" value="KO9XXy1RleM5y/njTVC4iBisfDbi7MRTQFBYarXCaK8=" /></p>
-</div>
-</form> 
-	</div><!--/island-->
-</div><!--
---><div class="grid__item contact--aside">
-<div class="island">
-<p><img src="/img/core/taylormade-disc-170.png" alt="" width="100"></p>
-<address>
-	<p>
-	<strong>Taylor Made Training</strong><br />
-	3 Exwick Hill<br />
-		Exeter<br />
-		EX4 2AQ</p>
-</address>
-<p>
-<a href="mailto:natalie@taylormade.training?subject=Taylor%20Made%20Training%20Enquiry"><span class="icon-pencil"></span> natalie [@] taylormade.training</a><br />
-<span class="icon-phone"></span> 01392 221033<br />
-<a href="https://twitter.com/TaylorMade_SW" title="Taylor Made on Twitter" target="_blank"><span class="icon-twitter"></span> @TaylorMade_SW</a> 
-<a href="http://uk.linkedin.com/in/bilbymarketing" title="Natalie Taylor LinkedIn" target="_blank"><span class="icon-linkedin"></span> LinkedIn</a></p>
+    </header>
 
-<div class="testimonial">
-							<blockquote>
+    <div class="hero has-extended-bottom-margin">
+      <div class="hero__body">
+        <div class="hero__main">
+              <h1 class="paragon u-margin-bottom">Contact Taylor Made Training</h1>
+              <blockquote>
 								<p>A very enjoyable training session that has focussed us on an achievable marketing strategy.  Natalie's enthusiasm and knowledge has been a great help in planning our third year of business</p>
 								<cite><small>Nicola Beglin &amp; Jenny Carter. In Bloom Devon</small></cite>
 							</blockquote>
-						</div><!--/testimonial-->
-						</div><!--/island-->
-</div>
+            </div>
+      </div>
+    </div>
+    <!--/hero-->
 
-
-</div><!--/grid-->
-			 
-			 </div>
-			 </div><!--/wrapper-->
-        
-
-        <div class="footer-container">
-        <span class="ribbon"></span>
-            <footer class="wrapper">
-                <p class="flush--bottom"><img src="http://taylormade.training/img/core/taylor-made_w_w.png" alt="Taylor Made Training" width="200"></p>
-                <ul class="nav nav--banner nav--social">
-                	<li><a href="mailto:natalie@taylormade.training?subject=Taylor%20Made%20Training%20Enquiry"><span class="icon-pencil"></span> natalie [@] taylormade.training</a></li>
-                	<li><span class="icon-phone"></span> 01392 221033</li>
-                	<li><a href="https://twitter.com/TaylorMade_SW" title="Taylor Made on Twitter" target="_blank"><span class="icon-twitter"></span> @TaylorMade_SW</a></li>
-                	<li><a href="http://uk.linkedin.com/in/bilbymarketing" title="Natalie Taylor LinkedIn" target="_blank"><span class="icon-linkedin"></span> LinkedIn</a></li>
-                </ul>
-                <p class="jc"><a href="http://johncowen.co.uk" title="Website by John Cowen"><small>Website by John Cowen</small></a></p>
-            </footer>
-        </div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <!--<script src="http://taylormade.training/js/bigSlide.min.js"></script>
-         <script>
-        $(document).ready(function() {
-            $('.menu-link').bigSlide();
-        });
-    </script>-->
-    
-    <script src="http://taylormade.training/js/classie.js"></script>
-	<script src="http://taylormade.training/js/main.js"></script>
-        
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54245143-1', 'auto');
-  ga('send', 'pageview');
-
-</script>        </div>
-        </div>
-    </body>
+    <footer class="footer">
+      <a href="https://taylormade.training">
+        <img
+          src="img/core/taylor-made-on-white_300.svg"
+          alt="Taylor Made Training"
+          class="footer__logo"
+        />
+      </a>
+      <div class="footer__nav">
+        <ul class="footer__menu services-menu">
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons is-icon"> ads_click </span>
+              Online marketing training
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons is-icon"> ads_click </span>
+              AdWords training
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons is-icon"> ads_click </span>
+              Google Analytics training
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons is-icon"> ads_click </span>
+              SEO training
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__menu resources-menu">
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons"> perm_contact_calendar </span>
+              About Taylor Made Trainig
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons is-icon"> sell </span>
+              Pricing
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons is-icon"> assignment </span>
+              Resources
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">
+              <span class="material-icons"> chat_bubble </span>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("js-offcanvas-links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
 </html>
