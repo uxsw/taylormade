@@ -446,7 +446,7 @@ u-margin-bottom {
   justify-content: center;
   margin-bottom: -3rem;
   padding: 2rem;
-  rotate: 1deg;
+  rotate: 5deg;
 }
 .hero__quote cite {
   color: hsl(217, 89%, 61%);
@@ -686,7 +686,7 @@ p {
   font-size: var(--paragon);
   font-weight: 700;
   letter-spacing: -0.02em;
-  line-height: 1.2;
+  line-height: 1;
   min-height: 0vh;
 }
 
