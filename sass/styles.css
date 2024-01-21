@@ -284,8 +284,12 @@ summary {
     padding-inline: 2rem;
   }
 }
+.hero__body {
+  margin-inline: auto;
+  max-width: 1500px;
+}
 @media screen and (min-width: 1024px) {
-  .hero {
+  .hero__body {
     display: grid;
     gap: 2rem;
     grid-template-columns: 2fr 1fr;
@@ -356,6 +360,17 @@ summary {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
+.services-grid-item > .is-section-thumb {
+  margin-left: -1rem;
+  margin-block: 1rem;
+}
+.services-grid-item > .is-section-summary:before {
+  background-color: rgba(255, 255, 255, 0.4);
+  content: "";
+  display: block;
+  height: 3px;
+  width: 2rem;
 }
 .services-grid-item > .is-section-cta {
   margin-top: auto;
