@@ -516,12 +516,12 @@ summary {
   color: hsl(44, 100%, 98%);
 }
 .services-grid-item.is-pricing {
-  background-color: hsl(287, 65%, 40%);
-  color: hsl(287, 65%, 97%);
+  background-color: hsl(171, 12%, 30%);
+  color: hsl(171, 12%, 95%);
 }
 .services-grid-item.is-contact {
-  background-color: hsl(33, 100%, 49%);
-  color: hsl(33, 100%, 98%);
+  background-color: hsl(201, 30%, 25%);
+  color: hsl(201, 30%, 95%);
 }
 .services-grid-item.is-analytics {
   background-color: hsl(151, 83%, 34%);
