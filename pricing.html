@@ -31,210 +31,254 @@
     <header class="branding">
       <a class="branding__logo" href="index.html">
         <img
-          src="img/core/taylor-made-on-white_300.svg"
+          src="img/core/taylor-made-logo.svg"
           alt="Taylor Made Training"
           class="is-logo"
         />
       </a>
       <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__list-item">
-              <a href="training-courses.html" class="is-link">Training Courses</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="about.html" class="is-link ">About</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="pricing.html" class="is-link is-current">Pricing</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="contact.html" class="is-link">Contact</a>
-            </li>
-            <li class="main-nav__burger">
-              <a class="menu-icon__open is-burger" onclick="myFunction()"> <span class="material-icons"> dehaze </span> </a>
-            </li>
-          </ul>
+        <ul class="main-nav__list">
+          <li class="main-nav__list-item">
+            <a href="training-courses.html" class="is-link">Training Courses</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a href="about.html" class="is-link">About</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a href="pricing.html" class="is-link is-current">Pricing</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a href="contact.html" class="is-link">Contact</a>
+          </li>
+          <li class="main-nav__burger">
+            <a class="menu-icon__open is-burger" onclick="myFunction()">
+              <span class="material-icons"> dehaze </span>
+            </a>
+          </li>
+        </ul>
       </nav>
 
-      <div class="offcanvas__menu js-offcanvas-links" id="js-offcanvas-links" style="display: none;">
+      <div
+        class="offcanvas__menu js-offcanvas-links"
+        id="js-offcanvas-links"
+        style="display: none"
+      >
         <div class="offcanvas__body">
-          <a href="javascript:void(0);" class="menu-icon__close" onclick="myFunction()">
+          <a
+            href="javascript:void(0);"
+            class="menu-icon__close"
+            onclick="myFunction()"
+          >
             <span class="material-icons"> close </span>
           </a>
-          <img src="img/core/taylor-made-on-white_300.svg" alt="Taylor Made Training" width="120" />
-          <ul class="offcanvas__list">
+          <img
+            src="img/core/taylor-made-logo.svg"
+            alt="Taylor Made Training"
+            width="180"
+          />
+          <ul class="offcanvas__list long-primer">
             <li class="offcanvas__list-item">
-              <a href="training.html" class="is-link">Training</a>
+              <a href="training-courses.html" class="is-link">
+                <span class="material-icons is-icon"> model_training </span>
+                Training</a
+              >
             </li>
             <li class="offcanvas__list-item">
-              <a href="about.html" class="is-link is-current">About</a>
+              <a href="about.html" class="is-link">
+                <span class="material-icons is-icon">
+                  perm_contact_calendar
+                </span>
+                About</a
+              >
             </li>
             <li class="offcanvas__list-item">
-              <a href="pricing.html" class="is-link is-current">Pricing</a>
+              <a href="pricing.html" class="is-link"
+                ><span class="material-icons is-icon"> sell </span> Pricing</a
+              >
             </li>
             <li class="offcanvas__list-item">
-              <a href="contact.html" class="is-link">Contact</a>
+              <a href="contact.html" class="is-link"
+                ><span class="material-icons is-icon"> chat_bubble </span>
+                Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
-
     </header>
 
-    <div class="hero has-extended-bottom-margin">
+    <div class="hero">
       <div class="hero__body">
         <div class="hero__main">
-              <h1 class="paragon u-margin-bottom">Pricing</h1>
-              <p>
-                All courses are bespoke and flexible. These are
-                <b>example costs only</b>.
-              </p>
-              <p>Email for a custom plan for your website and I will call you to discuss.</p>
-            </div>
+          <h1 class="paragon u-margin-bottom">Pricing</h1>
+          <p>
+            All courses are bespoke and flexible. These are
+            <b>example costs only</b>.
+          </p>
+          <p>
+            Email for a custom plan for your website and I will call you to
+            discuss.
+          </p>
+        </div>
+        <div>
+          <img src="img/core/pricing-thumb.png" alt="Training course prices" />
+        </div>
       </div>
     </div>
     <!--/hero-->
-        <section class="pricing-table">
-          <section class="pricing-table__item">
-            <div class="is-title">
-              <h3 class="long-primer is-slab">Rapid Review - &pound;120</h3>
-              <span class="material-icons is-icon">
-                tips_and_updates
-                </span>
-            </div>
-            <p>For example, of an existing paid search, email or campaign or your website performance.</p>
-            <p class="is-slab">Might include:</p>
-            <ul class="checklist">
-              <li class="checklist-item">Initial call to discuss your needs</li>
-              <li class="checklist-item">Written report of recommendations</li>
-              <li class="checklist-item">Follow up call</li>
-            </ul>
-            <div class="book-now">
-              <a href="#" class="btn-text has-right-icon is-section-cta">
-                Book now
-                <span class="material-icons">arrow_forward</span>
-              </a>
-            </div>
-          </section>
-          <section class="pricing-table__item">
-            <div class="is-title">
-            <h3 class="long-primer is-slab">Starter Session - &pound;280
-            </h3>
-            <span class="material-icons is-icon">
-              tips_and_updates
-              </span>
-            </div>
-            <p>For example, of an existing set of up to three campaigns as well as your website performance</p>
-            <p class="is-slab">Might include:</p>
+    <section class="pricing-table">
+      <section class="pricing-table__item">
+        <div class="is-title">
+          <h3 class="long-primer is-slab">Rapid Review - &pound;120</h3>
+          <span class="material-icons is-icon"> tips_and_updates </span>
+        </div>
+        <p>
+          For example, of an existing paid search, email or campaign or your
+          website performance.
+        </p>
+        <p class="is-slab">Might include:</p>
+        <ul class="checklist">
+          <li class="checklist-item">Initial call to discuss your needs</li>
+          <li class="checklist-item">Written report of recommendations</li>
+          <li class="checklist-item">Follow up call</li>
+        </ul>
+        <div class="book-now">
+          <a href="#" class="btn-text has-right-icon is-section-cta">
+            Book now
+            <span class="material-icons">arrow_forward</span>
+          </a>
+        </div>
+      </section>
+      <section class="pricing-table__item">
+        <div class="is-title">
+          <h3 class="long-primer is-slab">Starter Session - &pound;280</h3>
+          <span class="material-icons is-icon"> tips_and_updates </span>
+        </div>
+        <p>
+          For example, of an existing set of up to three campaigns as well as
+          your website performance
+        </p>
+        <p class="is-slab">Might include:</p>
 
-            <ul class="checklist">
-              <li class="checklist-item">Initial call to discuss your needs</li>
-              <li class="checklist-item">Preparatory research and site/campaign review</li>
-              <li class="checklist-item">3 hours on site training</li>
-              <li class="checklist-item">Follow up written report</li>
-              <li class="checklist-item">Follow up call</li>
-            </ul>
-            <div class="book-now">
-              <a href="#" class="btn-text has-right-icon is-section-cta">
-                Book now
-                <span class="material-icons">arrow_forward</span>
-              </a>
-            </div>
-          </section>
-          <section class="pricing-table__item">
-            <div class="is-title">
-            <h3 class="long-primer is-slab">Full Day Training - &pound;450</h3>
-            <span class="material-icons is-icon">
-              tips_and_updates
-              </span>
-              </div>
-            <p>For example, of an existing set of paid search, email or campaigns and your website performance.</p>
-            <p class="is-slab">Might include</p>
-            <ul class="checklist">
-              <li class="checklist-item">Initial call to discuss your needs</li>
-              <li class="checklist-item">Preparatory research and site/campaign review</li>
-              <li class="checklist-item">6 hours on site training*</li>
-              <li class="checklist-item">Follow up written report</li>
-              <li class="checklist-item">Follow up call</li>
-            </ul>
-            <div class="book-now">
-              <a href="#" class="btn-text has-right-icon is-section-cta">
-                Book now
-                <span class="material-icons">arrow_forward</span>
-              </a>
-            </div>
-          </section>
-        <div class="pricing-table__sp">
-          <p>Discounts are available when booking multiple days training.</p>
-          <p>*On site training is intended for small groups of up to 3
-              people.</p>
-          <p>An additional charge of £100 will be made for each extra person in groups larger than 3.</p>
-          <p>Travel may be charged for training at locations outside Exeter.</p>
-
-    </div>
+        <ul class="checklist">
+          <li class="checklist-item">Initial call to discuss your needs</li>
+          <li class="checklist-item">
+            Preparatory research and site/campaign review
+          </li>
+          <li class="checklist-item">3 hours on site training</li>
+          <li class="checklist-item">Follow up written report</li>
+          <li class="checklist-item">Follow up call</li>
+        </ul>
+        <div class="book-now">
+          <a href="#" class="btn-text has-right-icon is-section-cta">
+            Book now
+            <span class="material-icons">arrow_forward</span>
+          </a>
+        </div>
+      </section>
+      <section class="pricing-table__item">
+        <div class="is-title">
+          <h3 class="long-primer is-slab">Full Day Training - &pound;450</h3>
+          <span class="material-icons is-icon"> tips_and_updates </span>
+        </div>
+        <p>
+          For example, of an existing set of paid search, email or campaigns and
+          your website performance.
+        </p>
+        <p class="is-slab">Might include</p>
+        <ul class="checklist">
+          <li class="checklist-item">Initial call to discuss your needs</li>
+          <li class="checklist-item">
+            Preparatory research and site/campaign review
+          </li>
+          <li class="checklist-item">6 hours on site training*</li>
+          <li class="checklist-item">Follow up written report</li>
+          <li class="checklist-item">Follow up call</li>
+        </ul>
+        <div class="book-now">
+          <a href="#" class="btn-text has-right-icon is-section-cta">
+            Book now
+            <span class="material-icons">arrow_forward</span>
+          </a>
+        </div>
+      </section>
+      <div class="pricing-table__sp">
+        <p>Discounts are available when booking multiple days training.</p>
+        <p>*On site training is intended for small groups of up to 3 people.</p>
+        <p>
+          An additional charge of £100 will be made for each extra person in
+          groups larger than 3.
+        </p>
+        <p>Travel may be charged for training at locations outside Exeter.</p>
+      </div>
     </section>
     <footer class="footer">
       <a href="https://taylormade.training">
         <img
-          src="img/core/taylor-made-on-white_300.svg"
+          src="img/core/taylor-made-logo.svg"
           alt="Taylor Made Training"
-          class="footer__logo"
+          class="is-logo u-margin-bottom"
+          width="180"
         />
       </a>
       <div class="footer__nav">
-        <ul class="footer__menu services-menu">
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              Online marketing training
-            </a>
+        <ul class="footer-list u-margin-bottom">
+          <li class="footer-list__item">
+            <a href="online-marketing.html" class="is-link"
+              ><span class="material-icons is-icon"> campaign </span>Website
+              marketing</a
+            >
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              Ads training
-            </a>
+          <li class="footer-list__item">
+            <a href="ads-and-analytics.html" class="is-link"
+              ><span class="material-icons is-icon">tips_and_updates</span
+              >Organic &amp; paid marketing</a
+            >
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              Google Analytics training
-            </a>
+          <li class="footer-list__item">
+            <a href="email-marketing.html" class="is-link"
+              ><span class="material-icons is-icon">mark_email_read</span>Email
+              marketing</a
+            >
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              SEO training
-            </a>
+          <li class="footer-list__item">
+            <a href="content-creation.html" class="is-link"
+              ><span class="material-icons is-icon">rate_review</span>Content
+              creation</a
+            >
           </li>
         </ul>
-        <ul class="footer__menu resources-menu">
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons"> perm_contact_calendar </span>
+
+        <ul class="footer-list u-margin-bottom">
+          <li class="footer-list__item">
+            <a href="about.html" class="is-link">
+              <span class="material-icons is-icon">
+                perm_contact_calendar
+              </span>
               About Taylor Made Trainig
             </a>
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
+          <li class="footer-list__item">
+            <a href="pricing.html" class="is-link">
               <span class="material-icons is-icon"> sell </span>
               Pricing
             </a>
           </li>
-          <li class="footer__menu-item">
+          <!--<li class="footer-list__item">
             <a href="" class="footer__menu-link">
               <span class="material-icons is-icon"> assignment </span>
               Resources
             </a>
-          </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons"> chat_bubble </span>
+          </li>-->
+          <li class="footer-list__item">
+            <a href="contact.html" class="is-link">
+              <span class="material-icons is-icon"> chat_bubble </span>
               Contact
             </a>
           </li>
         </ul>
       </div>
+    </footer>
     <script>
       function myFunction() {
         var x = document.getElementById("js-offcanvas-links");
@@ -245,5 +289,6 @@
         }
       }
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </body>
 </html>

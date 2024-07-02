@@ -18,22 +18,6 @@
       rel="stylesheet"
     />
 
-    <style type="text/css">
-      .paragon,
-      .pica,
-      .is-slab {
-        font-family: "Roboto Slab", sans-serif;
-        font-weight: 700;
-      }
-
-      .minion,
-      .brevier,
-      .primer,
-      .long-primer p,
-      li {
-        font-family: "Lato", sans-serif;
-      }
-    </style>
     <title>Taylor Made Training | Website Training Courses in Exeter</title>
     <meta
       name="description"
@@ -44,7 +28,7 @@
     <header class="branding">
       <a class="branding__logo" href="index.html">
         <img
-          src="img/core/taylor-made-on-white_300.svg"
+          src="img/core/taylor-made-logo.svg"
           alt="Taylor Made Training"
           class="is-logo"
         />
@@ -74,19 +58,23 @@
           <a href="javascript:void(0);" class="menu-icon__close" onclick="myFunction()">
             <span class="material-icons"> close </span>
           </a>
-          <img src="img/core/taylor-made-on-white_300.svg" alt="Taylor Made Training" width="120" />
-          <ul class="offcanvas__list">
+          <img src="img/core/taylor-made-logo.svg" alt="Taylor Made Training" width="180" />
+          <ul class="offcanvas__list long-primer">
             <li class="offcanvas__list-item">
-              <a href="training.html" class="is-link">Training</a>
+              <a href="training-courses.html" class="is-link">
+                <span class="material-icons is-icon"> model_training </span> Training</a>
             </li>
             <li class="offcanvas__list-item">
-              <a href="about.html" class="is-link">About</a>
+              <a href="about.html" class="is-link">
+                <span class="material-icons is-icon">
+                  perm_contact_calendar
+                </span> About</a>
             </li>
             <li class="offcanvas__list-item">
-              <a href="pricing.html" class="is-link">Pricing</a>
+              <a href="pricing.html" class="is-link"><span class="material-icons is-icon"> sell </span> Pricing</a>
             </li>
             <li class="offcanvas__list-item">
-              <a href="contact.html" class="is-link">Contact</a>
+              <a href="contact.html" class="is-link"><span class="material-icons is-icon"> chat_bubble </span> Contact</a>
             </li>
           </ul>
         </div>
@@ -94,7 +82,7 @@
 
     </header>
 
-    <div class="hero has-extended-bottom-margin">
+    <div class="hero">
       <div class="hero__body">
         <div class="hero__main">
           <h1 class="paragon hero__title u-margin-bottom">
@@ -103,7 +91,7 @@
           <p class="hero__kicker long-primer">
             <span class="material-icons is-icon"> model_training </span>
             <span>
-              Support, Advice and/or Training in Google &amp; Meta Ads, Email, SEO and Analytics - 
+              Support, Advice and Training in Google &amp; Meta Ads, Email, SEO and Analytics - 
               <span class="is-focus">tailored to fit your needs.</span></span
             >
           </p>
@@ -243,7 +231,7 @@
               href="pricing.html"
               class="btn-text has-right-icon is-section-cta"
             >
-              Learn more
+              View prices
               <span class="material-icons">arrow_forward</span>
             </a>
           </div>
@@ -265,7 +253,7 @@
                 href="contact.html"
                 class="btn-text has-right-icon is-section-cta"
               >
-                Learn more
+                Contact me
                 <span class="material-icons">arrow_forward</span>
               </a>
             </div>
@@ -274,60 +262,64 @@
     <footer class="footer">
       <a href="https://taylormade.training">
         <img
-          src="img/core/taylor-made-on-white_300.svg"
+          src="img/core/taylor-made-logo.svg"
           alt="Taylor Made Training"
-          class="footer__logo"
+          class="is-logo u-margin-bottom"
+          width="180"
         />
       </a>
       <div class="footer__nav">
-        <ul class="footer__menu services-menu">
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              Online marketing training
-            </a>
+        <ul class="footer-list u-margin-bottom">
+          <li class="footer-list__item">
+            <a href="online-marketing.html" class="is-link"
+              ><span class="material-icons is-icon"> campaign </span>Website
+              marketing</a
+            >
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              Ads training
-            </a>
+          <li class="footer-list__item">
+            <a href="ads-and-analytics.html" class="is-link"
+              ><span class="material-icons is-icon">tips_and_updates</span
+              >Organic &amp; paid marketing</a
+            >
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              Google Analytics training
-            </a>
+          <li class="footer-list__item">
+            <a href="email-marketing.html" class="is-link"
+              ><span class="material-icons is-icon">mark_email_read</span>Email
+              marketing</a
+            >
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons is-icon"> ads_click </span>
-              SEO training
-            </a>
+          <li class="footer-list__item">
+            <a href="content-creation.html" class="is-link"
+              ><span class="material-icons is-icon">rate_review</span>Content
+              creation</a
+            >
           </li>
         </ul>
-        <ul class="footer__menu resources-menu">
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons"> perm_contact_calendar </span>
+
+        <ul class="footer-list u-margin-bottom">
+          <li class="footer-list__item">
+            <a href="about.html" class="is-link">
+              <span class="material-icons is-icon">
+                perm_contact_calendar
+              </span>
               About Taylor Made Trainig
             </a>
           </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
+          <li class="footer-list__item">
+            <a href="pricing.html" class="is-link">
               <span class="material-icons is-icon"> sell </span>
               Pricing
             </a>
           </li>
-          <li class="footer__menu-item">
+          <!--<li class="footer-list__item">
             <a href="" class="footer__menu-link">
               <span class="material-icons is-icon"> assignment </span>
               Resources
             </a>
-          </li>
-          <li class="footer__menu-item">
-            <a href="" class="footer__menu-link">
-              <span class="material-icons"> chat_bubble </span>
+          </li>-->
+          <li class="footer-list__item">
+            <a href="contact.html" class="is-link">
+              <span class="material-icons is-icon"> chat_bubble </span>
               Contact
             </a>
           </li>
@@ -344,5 +336,6 @@
         }
       }
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </body>
 </html>
