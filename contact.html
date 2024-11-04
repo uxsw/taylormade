@@ -37,71 +37,84 @@
         />
       </a>
       <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__list-item">
-            <a href="training-courses" class="is-link">Training Courses</a>
-          </li>
-          <li class="main-nav__list-item">
-            <a href="about" class="is-link">About</a>
-          </li>
-          <li class="main-nav__list-item">
-            <a href="pricing" class="is-link">Pricing</a>
-          </li>
-          <li class="main-nav__list-item">
-            <a href="contact" class="is-link">Contact</a>
-          </li>
-          <li class="main-nav__burger">
-            <a class="menu-icon__open is-burger" onclick="myFunction()">
-              <span class="material-icons"> dehaze </span>
-            </a>
-          </li>
-        </ul>
+          <ul class="main-nav__list">
+            <li class="main-nav__list-item has-nav-dropdown">
+              <a href="javascript:void(0);" class="is-link has-dd">Services</a>
+              <div class="nav-dropdown-content">
+                <ul class="dropdown-list">
+                  <li class="dropdown-list-item">
+                    <a href="online-marketing" class="is-link">Website marketing</a>
+                  </li>
+                  <li class="dropdown-list-item">
+                    <a href="ads-and-analytics" class="is-link">Organic &amp; paid marketing</a>
+                  </li>
+                  <li class="dropdown-list-item">
+                    <a href="email-marketing" class="is-link">Email marketing</a>
+                  </li>
+                  <li class="dropdown-list-item">
+                    <a href="content-creation" class="is-link">Content creation</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="main-nav__list-item">
+              <a href="training-courses" class="is-link">Training Courses</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="about" class="is-link">About</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="pricing" class="is-link">Pricing</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a href="contact" class="is-link is-current">Contact</a>
+            </li>
+            <li class="main-nav__burger">
+              <a class="menu-icon__open is-burger" onclick="myFunction()"> <span class="material-icons"> dehaze </span> </a>
+            </li>
+          </ul>
       </nav>
 
-      <div
-        class="offcanvas__menu js-offcanvas-links"
-        id="js-offcanvas-links"
-        style="display: none"
-      >
+       <div class="offcanvas__menu js-offcanvas-links" id="js-offcanvas-links" style="display: none;">
         <div class="offcanvas__body">
-          <a
-            href="javascript:void(0);"
-            class="menu-icon__close"
-            onclick="myFunction()"
-          >
+          <a href="javascript:void(0);" class="menu-icon__close" onclick="myFunction()">
             <span class="material-icons"> close </span>
           </a>
-          <img
-            src="img/core/taylor-made-logo.svg"
-            alt="Taylor Made Marketing"
-            width="180"
-            height="32"
-          />
+          <img src="img/core/taylor-made-logo.svg" alt="Taylor Made Marketing" width="180" height="32" />
           <ul class="offcanvas__list long-primer">
+            <li>
+              <ul class="offcanvas__service-list">
+                <li class="offcanvas__service-list-title"><span class="material-icons is-icon is-link"> auto_awesome </span>Services</li>
+                <li class="offcanvas__service-list-item">
+                  <a href="online-marketing" class="is-link"><span class="material-icons is-icon is-link"> campaign </span>Website marketing</a>
+                </li>
+                <li class="offcanvas__service-list-item">
+                  <a href="ads-and-analytics" class="is-link"><span class="material-icons is-icon is-link"> tips_and_updates </span>Organic &amp; paid marketing</a>
+                </li>
+                <li class="offcanvas__service-list-item">
+                  <a href="email-marketing" class="is-link"><span class="material-icons is-icon is-link"> mark_email_read </span>Email marketing</a>
+                </li>
+                <li class="offcanvas__service-list-item">
+                  <a href="content-creation" class="is-link"><span class="material-icons is-icon is-link"> rate_review </span>Content creation</a>
+                </li>
+              </ul>
+            </li>
             <li class="offcanvas__list-item">
               <a href="training-courses" class="is-link">
-                <span class="material-icons is-icon"> model_training </span>
-                Training</a
-              >
+                <span class="material-icons is-icon"> model_training </span> Training</a>
             </li>
             <li class="offcanvas__list-item">
               <a href="about" class="is-link">
                 <span class="material-icons is-icon">
                   perm_contact_calendar
-                </span>
-                About</a
-              >
+                </span> About</a>
             </li>
             <li class="offcanvas__list-item">
-              <a href="pricing" class="is-link"
-                ><span class="material-icons is-icon"> sell </span> Pricing</a
-              >
+              <a href="pricing" class="is-link"><span class="material-icons is-icon"> sell </span> Pricing</a>
             </li>
             <li class="offcanvas__list-item">
-              <a href="contact" class="is-link"
-                ><span class="material-icons is-icon"> chat_bubble </span>
-                Contact</a
-              >
+              <a href="contact" class="is-link"><span class="material-icons is-icon"> chat_bubble </span> Contact</a>
             </li>
           </ul>
         </div>
